@@ -1,0 +1,588 @@
+digraph {
+	size="20,20"
+	login [label="login
+[0, 0, 0, 0, 0]"]
+	admin [label="admin
+[1, 1, 0, 0, 0]"]
+	"In
+ OMS Directory" [label="In
+ OMS Directory
+[0, 0, 0, 1, 0]"]
+	"In
+ Customer DB" [label="In
+ Customer DB
+[0, 0, 0, 0, 1]"]
+	"In
+ Product DB" [label="In
+ Product DB
+[0, 0, 0, 0, 1]"]
+	"Disclosure
+of Sensitive
+ Data" [label="Disclosure
+of Sensitive
+ Data
+[1, 1, 1, 1, 1]"]
+	"Render
+ Malicious
+ Advertisement" [label="Render
+ Malicious
+ Advertisement
+[0, 0, 0, 1, 1]"]
+	"Flood Partial
+ Request
+ Headers" [label="Flood Partial
+ Request
+ Headers
+[0, 0, 1, 1, 0]"]
+	"Website
+ Unavailable" [label="Website
+ Unavailable
+[0, 0, 0, 1, 0]"]
+	home [label="home
+[1, 0, 0, 0, 0]"]
+	"Manipulate
+ Control
+ Syntax" [label="Manipulate
+ Control
+ Syntax
+[1, 0, 0, 1, 1]"]
+	"Steal
+ Session
+ Cookie" [label="Steal
+ Session
+ Cookie
+[1, 0, 1, 0, 0]"]
+	"Usurp
+ Access to
+ IMS SMB 
+ Protocol" [label="Usurp
+ Access to
+ IMS SMB 
+ Protocol
+[1, 0, 1, 1, 0]"]
+	"Target
+ Unpatched
+ Endpoints" [label="Target
+ Unpatched
+ Endpoints
+[0, 0, 1, 0, 0]"]
+	"Install
+RootKit" [label="Install
+RootKit
+[0, 1, 0, 1, 0]"]
+	"Disable
+Antivirus" [label="Disable
+Antivirus
+[1, 1, 1, 1, 0]"]
+	"Overwrite
+Master Boot
+Record" [label="Overwrite
+Master Boot
+Record
+[0, 0, 0, 1, 0]"]
+	"Flood IMS
+ with Request" [label="Flood IMS
+ with Request
+[0, 0, 1, 1, 0]"]
+	"In IMS " [label="In IMS 
+[1, 0, 0, 1, 0]"]
+	"Dynamic
+ Memory
+ Allocation" [label="Dynamic
+ Memory
+ Allocation
+[0, 0, 0, 1, 0]"]
+	"Frame Pointer
+ with Overwritten Memory" [label="Frame Pointer
+ with Overwritten Memory
+[0, 0, 0, 1, 0]"]
+	"Enter
+ Kernel Space" [label="Enter
+ Kernel Space
+[0, 1, 0, 1, 0]"]
+	"Access a
+ Known UNC
+Share" [label="Access a
+ Known UNC
+Share
+[1, 1, 0, 1, 0]"]
+	"Create User
+ Account with
+ Full Privilege" [label="Create User
+ Account with
+ Full Privilege
+[0, 1, 0, 1, 0]"]
+	"Search Local
+ Network with
+ using
+wmic.exe" [label="Search Local
+ Network with
+ using
+wmic.exe
+[0, 1, 1, 1, 0]"]
+	"Product
+List" [label="Product
+List
+[1, 0, 0, 0, 0]"]
+	"Intercept Protocol
+ Trace Response" [label="Intercept Protocol
+ Trace Response
+[0, 1, 1, 1, 0]"]
+	"Access
+OMS" [label="Access
+OMS
+[1, 1, 0, 1, 0]"]
+	"Register a
+ Rouge Domain
+ Controller (DC)" [label="Register a
+ Rouge Domain
+ Controller (DC)
+[1, 1, 1, 1, 0]"]
+	"Malicious
+Email
+in Employee's Email" [label="Malicious
+Email
+in Employee's Email
+[1, 1, 1, 1, 0]"]
+	"Access
+ VPN
+ Network" [label="Access
+ VPN
+ Network
+[1, 1, 1, 0, 0]"]
+	"Stolen
+ Session
+ Token" [label="Stolen
+ Session
+ Token
+[0, 1, 1, 1, 0]"]
+	"Reuse
+ SSL
+ Token" [label="Reuse
+ SSL
+ Token
+[1, 1, 1, 1, 0]"]
+	"Spoofing
+ Legitimate
+ User" [label="Spoofing
+ Legitimate
+ User
+[1, 0, 0, 0, 0]"]
+	"Client Side
+ Malicious Browser
+ Extensions" [label="Client Side
+ Malicious Browser
+ Extensions
+[1, 0, 0, 0, 0]"]
+	"Scrape
+ Personal
+ Data" [label="Scrape
+ Personal
+ Data
+[1, 1, 1, 0, 1]"]
+	"Product
+Page" [label="Product
+Page
+[1, 0, 0, 0, 0]"]
+	"Comment Creation Race" [label="Comment Creation Race
+[0, 0, 0, 1, 0]"]
+	"Store Malicious 
+Script in
+ Database" [label="Store Malicious 
+Script in
+ Database
+[1, 1, 0, 0, 1]"]
+	"Access Unwhitelisted Domains" [label="Access Unwhitelisted Domains
+[0, 0, 0, 1, 0]"]
+	"Cookies sent to
+ External Web
+ Server" [label="Cookies sent to
+ External Web
+ Server
+[1, 1, 0, 1, 0]"]
+	"i.Leverage Malicious
+ RDP Server
+ii.An RDP Relay
+iii. Weaponized RDP
+ Connection File" [label="i.Leverage Malicious
+ RDP Server
+ii.An RDP Relay
+iii. Weaponized RDP
+ Connection File
+[1, 0, 1, 1, 0]"]
+	"In
+ Supplier
+Desktop" [label="In
+ Supplier
+Desktop
+[1, 1, 0, 0, 0]"]
+	"Access System
+Files and Binaries" [label="Access System
+Files and Binaries
+[0, 1, 0, 0, 0]"]
+	"Connect Foreign
+ Network Devices" [label="Connect Foreign
+ Network Devices
+[1, 1, 0, 0, 0]"]
+	"Dwmcore.dll" [label="Dwmcore.dll
+[0, 1, 0, 1, 0]"]
+	"Replicate 
+Browser 
+Session" [label="Replicate 
+Browser 
+Session
+[1, 1, 1, 0, 0]"]
+	"Heap-Based
+ Buffer Overflow" [label="Heap-Based
+ Buffer Overflow
+[1, 1, 0, 1, 0]"]
+	"Log
+ Tampering" [label="Log
+ Tampering
+[0, 1, 1, 1, 1]"]
+	"User
+Impersonation" [label="User
+Impersonation
+[1, 1, 0, 1, 1]"]
+	"Lack of 
+ Accountability" [label="Lack of 
+ Accountability
+[0, 0, 0, 0, 0]"]
+	"Cart List" [label="Cart List
+[1, 0, 0, 0, 0]"]
+	"Manipulate DOM Tree" [label="Manipulate DOM Tree
+[0, 0, 0, 1, 0]"]
+	"Modify Cart Transactions" [label="Modify Cart Transactions
+[0, 0, 0, 1, 0]"]
+	"Unencrypted Cookies" [label="Unencrypted Cookies
+[0, 0, 0, 1, 0]"]
+	"MiTM Attack" [label="MiTM Attack
+[0, 0, 0, 1, 0]"]
+	"Order Confirmation" [label="Order Confirmation
+[0, 0, 0, 1, 0]"]
+	"Order Out of Inventory" [label="Order Out of Inventory
+[0, 0, 0, 1, 0]"]
+	"Rouge alert() Dialogue" [label="Rouge alert() Dialogue
+[0, 0, 0, 1, 0]"]
+	"Access Customer Database" [label="Access Customer Database
+[0, 0, 0, 1, 1]"]
+	"Steal Payment Methods" [label="Steal Payment Methods
+[0, 0, 0, 1, 1]"]
+	"Inject Scripts to Capture Keystrokes" [label="Inject Scripts to Capture Keystrokes
+[0, 0, 0, 1, 1]"]
+	login -> admin [label="No Restriction of 
+Excessive Authentication
+ Attempts"]
+	login -> "Flood Partial
+ Request
+ Headers" [label="Multiple Connections
+ to Target Server"]
+	"Flood Partial
+ Request
+ Headers" -> "Website
+ Unavailable" [label="Unable to Release 
+Open Partial Connections"]
+	admin -> "In
+ OMS Directory" [label="Fail To Sanitize
+ Incoming Paths"]
+	admin -> "In
+ Customer DB" [label="Improper Interaction
+ Frequency"]
+	admin -> "In
+ Product DB" [label="Password Aging with
+ Long Expiration"]
+	"In
+ OMS Directory" -> "Disclosure
+of Sensitive
+ Data" [label="Exposure of 
+Sensitive Information"]
+	"In
+ Customer DB" -> "Disclosure
+of Sensitive
+ Data" [label="SQL Injection"]
+	"In
+ Product DB" -> "Render
+ Malicious
+ Advertisement" [label="Stored
+ Cross-Site-Scripting"]
+	"Render
+ Malicious
+ Advertisement" -> "Disclosure
+of Sensitive
+ Data" [label="Exposure of
+ Sensitive Information"]
+	login -> home [label=""]
+	home -> "Manipulate
+ Control
+ Syntax" [label="Improper
+ Encoding"]
+	home -> "Steal
+ Session
+ Cookie" [label="Incorrect Permission
+ for Critical Resource"]
+	"Manipulate
+ Control
+ Syntax" -> "Usurp
+ Access to
+ IMS SMB 
+ Protocol" [label="Misuse
+ Directives"]
+	"Usurp
+ Access to
+ IMS SMB 
+ Protocol" -> "Disclosure
+of Sensitive
+ Data" [label="Exposure of Resource
+ to Wrong Sphere"]
+	"Usurp
+ Access to
+ IMS SMB 
+ Protocol" -> "Target
+ Unpatched
+ Endpoints" [label="Enumerated
+ Connected
+ Endpoints
+ (Scan TCP Port 445)"]
+	"Target
+ Unpatched
+ Endpoints" -> "Install
+RootKit" [label="Exploit Outdated
+ Software"]
+	"Install
+RootKit" -> "Overwrite
+Master Boot
+Record" [label="Persistence and
+ System Control"]
+	"Steal
+ Session
+ Cookie" -> "Disclosure
+of Sensitive
+ Data" [label="Insecure
+ Cookies"]
+	home -> "Flood IMS
+ with Request" [label="Use of Resources
+ without Throttling"]
+	"Flood IMS
+ with Request" -> "Website
+ Unavailable" [label="Uncontrollable Resource
+ Consumption"]
+	home -> "In IMS " [label="Server Side
+ Include Injection"]
+	"In IMS " -> "Dynamic
+ Memory
+ Allocation" [label="Uncontrolled Resource
+ Consumption"]
+	"Dynamic
+ Memory
+ Allocation" -> "Frame Pointer
+ with Overwritten Memory" [label="Classic Buffer
+ Overflow"]
+	"In IMS " -> "Access a
+ Known UNC
+Share" [label="Absolute Path
+ Traversal"]
+	"Access a
+ Known UNC
+Share" -> "Create User
+ Account with
+ Full Privilege" [label="Exploit MS15-011
+ Vulnerability"]
+	"Create User
+ Account with
+ Full Privilege" -> "Search Local
+ Network with
+ using
+wmic.exe" [label="Perform Network
+ Reconnaissance"]
+	"Search Local
+ Network with
+ using
+wmic.exe" -> "Target
+ Unpatched
+ Endpoints" [label="Analyze Software
+ Versions"]
+	"Install
+RootKit" -> "Disable
+Antivirus" [label="Defense Evasion"]
+	"Frame Pointer
+ with Overwritten Memory" -> "Enter
+ Kernel Space" [label="Untrusted Pointer
+ dereference "]
+	home -> "Product
+List" [label=""]
+	"Product
+List" -> "Intercept Protocol
+ Trace Response" [label="Enabled Protocol
+ Trace Method"]
+	"Product
+List" -> "Access
+OMS" [label="Unmaintained 
+Third Party
+ Components"]
+	"Access
+OMS" -> "Register a
+ Rouge Domain
+ Controller (DC)" [label="DCShadow
+ Technique"]
+	"Register a
+ Rouge Domain
+ Controller (DC)" -> "Create User
+ Account with
+ Full Privilege" [label="Mimic Domain
+ Controller"]
+	"Register a
+ Rouge Domain
+ Controller (DC)" -> "Malicious
+Email
+in Employee's Email" [label="Usurp Internal
+ Email Accounts"]
+	"Malicious
+Email
+in Employee's Email" -> "Access
+ VPN
+ Network" [label="Exposed
+ Credentials"]
+	"Access
+OMS" -> "Stolen
+ Session
+ Token" [label="Poorly Protected
+ Identity Token"]
+	"Stolen
+ Session
+ Token" -> "Reuse
+ SSL
+ Token" [label="Session Resumption
+ Techniques"]
+	"Reuse
+ SSL
+ Token" -> "Spoofing
+ Legitimate
+ User" [label="Reuse Valid
+ Session ID"]
+	"Client Side
+ Malicious Browser
+ Extensions" -> "Stolen
+ Session
+ Token" [label="Misuse HTTP
+ Header"]
+	"Client Side
+ Malicious Browser
+ Extensions" -> "Scrape
+ Personal
+ Data" [label="Missing Encryption
+ of Sensitive Data"]
+	"Scrape
+ Personal
+ Data" -> "Spoofing
+ Legitimate
+ User" [label="Clear Text Transmission
+ of Sensitive Data"]
+	"Access
+ VPN
+ Network" -> "Spoofing
+ Legitimate
+ User" [label="Broad Access
+ to Sensitive Networks"]
+	"Product
+List" -> "Product
+Page" [label=""]
+	"Product
+Page" -> "Comment Creation Race" [label="Multiple Comment
+ Creation Requests"]
+	"Product
+Page" -> "i.Leverage Malicious
+ RDP Server
+ii.An RDP Relay
+iii. Weaponized RDP
+ Connection File" [label="Rogue RDP"]
+	"i.Leverage Malicious
+ RDP Server
+ii.An RDP Relay
+iii. Weaponized RDP
+ Connection File" -> "Access System
+Files and Binaries" [label="Server Misconfiguration
+ Allows RDP Access"]
+	"Access System
+Files and Binaries" -> "In
+ Supplier
+Desktop" [label="Unrestricted File
+ Access"]
+	"In
+ Supplier
+Desktop" -> "Connect Foreign
+ Network Devices" [label="Lack of Control
+ on Peripheral Devices"]
+	"Connect Foreign
+ Network Devices" -> "Lack of 
+ Accountability" [label="Unpatched
+ Windows OS"]
+	"In
+ Supplier
+Desktop" -> "Dwmcore.dll" [label="Target OS File
+ Vulnerability"]
+	"Dwmcore.dll" -> "Heap-Based
+ Buffer Overflow" [label="Boundary Error"]
+	"Heap-Based
+ Buffer Overflow" -> "Log
+ Tampering" [label="Modify or
+ Delete Logs"]
+	"Log
+ Tampering" -> "Lack of 
+ Accountability" [label="Avoid Detection"]
+	"Product
+Page" -> "Store Malicious 
+Script in
+ Database" [label="Stored
+ XSS"]
+	"Store Malicious 
+Script in
+ Database" -> "Cookies sent to
+ External Web
+ Server" [label="Client-Side
+Exploitation"]
+	"Cookies sent to
+ External Web
+ Server" -> "Replicate 
+Browser 
+Session" [label="Session Management
+Vulnerability"]
+	"Replicate 
+Browser 
+Session" -> "User
+Impersonation" [label="Reuse Valid
+ Session ID"]
+	"User
+Impersonation" -> "Lack of 
+ Accountability" [label="Avoid Detection"]
+	"Store Malicious 
+Script in
+ Database" -> "Access Unwhitelisted Domains" [label="Missing Restriction
+on Target URL"]
+	"Product
+Page" -> "Cart List" [label=""]
+	"Cart List" -> "Manipulate DOM Tree" [label="XSS
+ Vulnerability"]
+	"Manipulate DOM Tree" -> "Modify Cart Transactions" [label="Script Injection
+ through DOM"]
+	"Cart List" -> "Unencrypted Cookies" [label="No Hash
+ Check"]
+	"Unencrypted Cookies" -> "MiTM Attack" [label="Cookies sent
+ over Browser"]
+	"MiTM Attack" -> "Modify Cart Transactions" [label="Unencrypted
+ Communication"]
+	"Cart List" -> "Order Confirmation" [label=""]
+	"Order Confirmation" -> "Order Out of Inventory" [label="Simultaneous Purchase
+ Actions"]
+	"Order Confirmation" -> "Rouge alert() Dialogue" [label="Lack of User Input
+ Validation"]
+	"Rouge alert() Dialogue" -> "Inject Scripts to Capture Keystrokes" [label="Found XSS
+ Vulnerability"]
+	"Inject Scripts to Capture Keystrokes" -> "Steal Payment Methods" [label="Poor Data
+ Protection"]
+	"Order Confirmation" -> "Access Customer Database" [label="Network Access to
+ Order Confirmation
+ page"]
+	"Access Customer Database" -> "Steal Payment Methods" [label="Insecure
+ Storage of
+ Credentials"]
+}
